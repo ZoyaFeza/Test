@@ -12,7 +12,7 @@ ENV NODE_OPTIONS=--max-old-space-size=8192
 
 COPY . .
 RUN npm install
-RUN BACKGROUND npm start
+
 
 # Create a unique link to share the app in this runner.
 # Every time someone clicks the link, we'll wake up this staging server.
