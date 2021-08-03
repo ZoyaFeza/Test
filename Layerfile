@@ -1,4 +1,4 @@
-#This is an example LayerCI configuration for React!
+#This is a test Layerfile for screenshot purposes!
 FROM vm/ubuntu:18.04
 
 # To note: Layerfiles create entire VMs, *not* containers!
@@ -19,3 +19,5 @@ RUN npm install
 
 
 #hello
+
+
